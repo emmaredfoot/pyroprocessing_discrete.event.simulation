@@ -50,7 +50,8 @@ def injection_casting(operation_time,equipment_failure_time_0,equipment_failure_
     equipment_failure_time_1=equipment_failure_time_1+0.5*delay_time
     equipment_counter=equipment_counter+1
 #
-    true_equipment_loss=(equipment_loss_fraction[1]-equipment_loss_fraction[2])*numpy.random.random_sample()+equipment_loss_fraction[2] 
+    true_equipment_loss=(equipment_loss_fraction[1]-equipment_loss_fraction[2])*:q
+    +equipment_loss_fraction[2] 
     expected_equipment_loss=equipment_loss_fraction[0]
 #
     true_quantity=true_quantity-true_equipment_loss
